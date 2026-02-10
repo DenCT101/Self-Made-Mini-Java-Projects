@@ -1,0 +1,41 @@
+
+
+
+.board{
+    border: solid;
+    height: 85vh;
+    width: 300px;
+    border-radius: 9px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+    
+    
+}
+
+.items{
+    border: solid;
+    margin: 0px 5px;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+
+.gen-btn{
+    cursor: pointer;
+    position: relative;
+    top: 87%;
+    
+}
+
+#add-board{
+    height: 4vh;
+    width: 2vw;
+    cursor: pointer;
+
+}
+

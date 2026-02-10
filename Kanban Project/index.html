@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Borad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="cont">
+        <div class="board" id="to-do-board">
+            <h3>To-Do (<span class="count">0</span>) <button class="delete-board">X</button></h3>
+            <button class="gen-btn">Add Task</button>
+            <div class="item-container">
+                <div class="items" draggable="true">JAVA SCRIPT<button class="edit-task-btn">Edit</button> <button class="del-task-btn">X</button> </div>
+            </div>
+        </div>
+        <div class="board" id="progress-board">
+            <h3>In Progress(<span class="count">0</span>) <button class="delete-board">X</button></h3>
+            <button class="gen-btn">Add Task</button>
+            <div class="item-container">
+
+            </div>
+        </div>
+        <div class="board" id="done-board">
+            <h3>Done (<span class="count">0</span>) <button class="delete-board">X</button></h3>
+            <button class="gen-btn">Add Task</button>
+            <div class="item-container">
+
+            </div>
+        </div>
+    </div>
+    <button id="add-board">+</button>
+    <script src="script.js"></script>
+</body>
+</html>
